@@ -6,4 +6,4 @@ Part 2: Implementing the ‘head’
 
 Part 3: Extending ‘head’
 
-More information please check homework1.pdf
+More information please check homework-1.pdf
