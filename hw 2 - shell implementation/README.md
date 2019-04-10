@@ -4,13 +4,18 @@ $ cat /usr/share/dict/words | grep cat | sed s/cat/dog/ > doggerel.txt
 
 The above pipeline takes /usr/share/dict/words (a file generally installed on UNIX systems that contains a list of English words), selects out the words containing the string "cat", and then uses sed to replace "cat" with "dog", so that, for example, "concatenate" becomes "condogenate". The results are output to "doggerel.txt".
 
-Next, try to compile the source code to the shell:  $ gcc shell.c -o shell  
+Next, try to compile the source code to the shell:  
+
+$ gcc shell.c -o shell  
 
 You can then run and interact with the shell by typing ./shell :  
 
 user@cs6233:~$ ./shell 
 
 cs6233> ls 
+
 exec not implemented 
 
 You can quit your shell by typing Control-C or  Control-D.
+
+For more information please check Hw2- shell.pdf
