@@ -5,3 +5,5 @@ Part 1: Hello World
 Part 2: Implementing the ‘head’ 
 
 Part 3: Extending ‘head’
+
+More information please check homework1.pdf
